@@ -16,7 +16,25 @@ damage = [obj_attack,obj_arrow]
 
 
 
+hit = function()
+{
+	if(place_meeting(x,y,damage) and state!="dead" and state != "hit")
+	{
+		state = "hit"
+		image_index = 0;
+		vida -= 1
+	}
+	
+	
+	
+}
 
+hit_arrow = function()
+{
+	state = "hit"
+	image_index = 0;
+	vida -= 1
+}
 
 anim_dir = function()
 {

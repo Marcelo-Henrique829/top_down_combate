@@ -7,12 +7,7 @@ dir = point_direction(0,0,sign(hspd),sign(vspd))
 
 var _distancia = point_distance(x,y,obj_player.x,obj_player.y)
 
-if(place_meeting(x,y,damage) and state!="dead" and state != "hit")
-{
-	state = "hit"
-	image_index = 0;
-	vida -= 1
-}
+
 
 if(vida<=0)
 {
@@ -37,6 +32,8 @@ if(vida<=0)
 		hspd = 0;
 		vspd = 0;
 		
+		hit()
+		
 	}
 	break;
 	
@@ -50,6 +47,7 @@ if(vida<=0)
 		{
 			state = "iddle"
 		}
+		hit()
 	}
 	break;
 	
@@ -74,7 +72,8 @@ if(vida<=0)
 		vspd = 0
 		if(image_index>=image_number-1)
 		{
-			instance_destroy()	
+			instance_destroy()
+			global.pontos +=1
 		}
  		 
 		

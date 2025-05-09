@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_arrow",
+  "%Name":"obj_arrow_juice",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_arrow",
+  "name":"obj_arrow_juice",
   "overriddenProperties":[],
   "parent":{
     "name":"projetil",
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_flecha",
-    "path":"sprites/spr_flecha/spr_flecha.yy",
+    "name":"spr_arrow_hit",
+    "path":"sprites/spr_arrow_hit/spr_arrow_hit.yy",
   },
   "spriteMaskId":null,
   "visible":true,
