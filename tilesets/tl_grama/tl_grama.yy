@@ -1,0 +1,44 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tl_grama",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_16_piece","closed_edge":false,"name":"autotile_16_piece","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[14,31,30,2,19,13,22,1,18,10,15,3,26,25,27,69,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_47_piece","closed_edge":false,"name":"autotile_47_piece","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        14,31,30,33,18,22,54,35,19,55,10,34,21,46,47,57,13,29,17,53,2,6,7,9,15,20,32,56,26,43,42,45,16,38,1,
+        5,3,8,27,44,25,41,4,37,28,39,40,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tl_grama",
+  "out_columns":9,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Conjuntos de tiles",
+    "path":"folders/Conjuntos de tiles.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tile_grama",
+    "path":"sprites/spr_tile_grama/spr_tile_grama.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":84,
+}

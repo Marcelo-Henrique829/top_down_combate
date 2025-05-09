@@ -1,0 +1,48 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tl_cerca",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,27,0,0,0,20,0,0,0,29,0,0,0,36,26,44,0,19,0,21,0,37,0,35,18,43,
+        34,45,42,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"autotile_2","closed_edge":false,"name":"autotile_2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        12,37,35,44,19,0,27,0,21,29,0,0,20,0,0,28,0,0,0,27,0,0,0,20,0,0,0,29,0,0,0,36,26,44,0,19,0,21,0,37,0,
+        35,18,43,34,45,42,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":10,
+    "SerialiseWidth":11,
+    "TileCompressedData":[-98,0,1,5,-7,0,-3,28,1,21,],
+    "TileDataFormat":1,
+  },
+  "name":"tl_cerca",
+  "out_columns":8,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Conjuntos de tiles",
+    "path":"folders/Conjuntos de tiles.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tile_cercas",
+    "path":"sprites/spr_tile_cercas/spr_tile_cercas.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":64,
+}
